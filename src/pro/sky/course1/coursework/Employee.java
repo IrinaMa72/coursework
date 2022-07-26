@@ -11,8 +11,7 @@ public class Employee {
         this.name = name;
         this.department = department;
         this.salary = salary;
-        this.id = getCounter();
-        counter++;
+        this.id = counter++;
     }
 
         public String getName() {
